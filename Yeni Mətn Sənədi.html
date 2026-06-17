@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<title>Resimli Sayfa</title>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        text-align: center;
+        background: #f4f4f4;
+    }
+
+    .kapsayici {
+        position: relative;
+        display: inline-block;
+        margin-top: 30px;
+    }
+
+    .kapsayici img {
+        width: 500px;
+        border-radius: 10px;
+    }
+
+    .yazi {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 32px;
+        font-weight: bold;
+        text-shadow: 2px 2px 5px black;
+    }
+</style>
+</head>
+<body>
+
+<h1>Hoş Geldiniz</h1>
+
+<p>Bu örnekte yazı resmin üzerinde görünmektedir.</p>
+
+<div class="kapsayici">
+    <img src="https://picsum.photos/500/300" alt="Manzara">
+    <div class="yazi">Merhaba Dünya!</div>
+</div>
+
+</body>
+</html>
